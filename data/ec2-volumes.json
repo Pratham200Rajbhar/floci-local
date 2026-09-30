@@ -1,0 +1,24 @@
+{
+  "000000000000/us-east-1::vol-056b938e83c6e294a" : {
+    "volumeId" : "vol-056b938e83c6e294a",
+    "volumeType" : "gp3",
+    "size" : 8,
+    "state" : "in-use",
+    "availabilityZone" : "us-east-1c",
+    "encrypted" : false,
+    "iops" : 0,
+    "throughput" : null,
+    "snapshotId" : null,
+    "createTime" : "2026-09-04T09:14:42.405499606Z",
+    "region" : "us-east-1",
+    "tags" : [ ],
+    "attachments" : [ {
+      "instanceId" : "i-f1e986e6b93535e14",
+      "device" : "/dev/xvda",
+      "state" : "attached",
+      "attachTime" : "2026-09-04T09:14:42.405499804Z",
+      "deleteOnTermination" : true,
+      "volumeId" : "vol-056b938e83c6e294a"
+    } ]
+  }
+}

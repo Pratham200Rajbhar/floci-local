@@ -1,0 +1,38 @@
+{
+  "000000000000/my-cache" : {
+    "replicationGroupId" : "my-cache",
+    "description" : "Dev cache",
+    "status" : "AVAILABLE",
+    "authMode" : "NO_AUTH",
+    "configurationEndpoint" : {
+      "address" : "localhost.floci.io",
+      "port" : 6379
+    },
+    "createdAt" : "2026-09-04T08:23:42.836381535Z",
+    "proxyPort" : 6379,
+    "authToken" : null,
+    "associatedUserIds" : [ ],
+    "arn" : "arn:aws:elasticache:us-east-1:000000000000:replicationgroup:my-cache",
+    "region" : "us-east-1",
+    "atRestEncryptionEnabled" : false,
+    "kmsKeyId" : null,
+    "snapshotRetentionLimit" : 0,
+    "snapshotWindow" : "00:00-01:00",
+    "tags" : { },
+    "clusterEnabled" : false,
+    "numNodeGroups" : 1,
+    "replicasPerNodeGroup" : 0,
+    "numCacheClusters" : 1,
+    "engine" : "valkey",
+    "engineVersion" : "8.1",
+    "cacheNodeType" : "cache.t4g.micro",
+    "cacheParameterGroupName" : null,
+    "cacheSubnetGroupName" : null,
+    "automaticFailoverEnabled" : false,
+    "multiAzEnabled" : false,
+    "clusterNodes" : [ ],
+    "containerId" : "bfe60ebe91aad3f93d67a5a3b80b6ef5e0edc916201fcd48e43e880f092ceb54",
+    "containerHost" : "10.0.4.3",
+    "containerPort" : 6379
+  }
+}

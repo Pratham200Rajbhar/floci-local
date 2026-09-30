@@ -1,0 +1,32 @@
+{
+  "000000000000/us-east-1::/aws/rds/instance/testing/error::2026/09/04/77b6de43" : {
+    "logGroupName" : "/aws/rds/instance/testing/error",
+    "logStreamName" : "2026/09/04/77b6de43",
+    "createdTime" : 1788513103593,
+    "firstEventTimestamp" : 1788513103594,
+    "lastEventTimestamp" : 1788513605831,
+    "lastIngestionTime" : 1788513605831,
+    "uploadSequenceToken" : "5975a1ce-1d7e-4b1f-b92a-2a7646c55366",
+    "storedBytes" : 5680
+  },
+  "000000000000/us-east-1::/aws/elasticache/cluster/my-cache/engine-log::2026/09/04/bfe60ebe" : {
+    "logGroupName" : "/aws/elasticache/cluster/my-cache/engine-log",
+    "logStreamName" : "2026/09/04/bfe60ebe",
+    "createdTime" : 1788510222834,
+    "firstEventTimestamp" : 1788510222837,
+    "lastEventTimestamp" : 1788513605626,
+    "lastIngestionTime" : 1788513605626,
+    "uploadSequenceToken" : "0796828a-2cc8-4939-8ca9-c677552f3e63",
+    "storedBytes" : 67745
+  },
+  "000000000000/us-east-1::/aws/rds/instance/testing/error::2026/09/04/13826195" : {
+    "logGroupName" : "/aws/rds/instance/testing/error",
+    "logStreamName" : "2026/09/04/13826195",
+    "createdTime" : 1788513618582,
+    "firstEventTimestamp" : 1788513618584,
+    "lastEventTimestamp" : 1788513917728,
+    "lastIngestionTime" : 1788513917728,
+    "uploadSequenceToken" : "4aecc2e5-b204-4067-bc8c-1550f30b12a7",
+    "storedBytes" : 1260
+  }
+}

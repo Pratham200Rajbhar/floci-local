@@ -1,0 +1,18 @@
+{
+  "000000000000/us-east-1::/aws/elasticache/cluster/my-cache/engine-log" : {
+    "logGroupName" : "/aws/elasticache/cluster/my-cache/engine-log",
+    "createdTime" : 1788510222832,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  },
+  "000000000000/us-east-1::/aws/rds/instance/testing/error" : {
+    "logGroupName" : "/aws/rds/instance/testing/error",
+    "createdTime" : 1788513103586,
+    "retentionInDays" : null,
+    "deletionProtectionEnabled" : false,
+    "kmsKeyId" : null,
+    "tags" : { }
+  }
+}

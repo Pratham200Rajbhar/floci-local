@@ -1,0 +1,74 @@
+{
+  "000000000000/us-east-1::i-f1e986e6b93535e14" : {
+    "instanceId" : "i-f1e986e6b93535e14",
+    "imageId" : "ami-12345678",
+    "state" : {
+      "code" : 48,
+      "name" : "terminated"
+    },
+    "stateTransitionReason" : null,
+    "instanceType" : "t2.micro",
+    "placement" : {
+      "availabilityZone" : "us-east-1c",
+      "tenancy" : "default",
+      "groupName" : null
+    },
+    "subnetId" : "subnet-default-us-east-1-c",
+    "vpcId" : "vpc-default-us-east-1",
+    "privateIpAddress" : "172.31.32.10",
+    "publicIpAddress" : null,
+    "privateDnsName" : "ip-172-31-32-10.ec2.internal",
+    "publicDnsName" : null,
+    "associatePublicIp" : true,
+    "keyName" : null,
+    "securityGroups" : [ {
+      "groupId" : "sg-default-us-east-1",
+      "groupName" : "default"
+    } ],
+    "networkInterfaces" : [ {
+      "networkInterfaceId" : "eni-e964714edd068b1cf",
+      "subnetId" : "subnet-default-us-east-1-c",
+      "vpcId" : "vpc-default-us-east-1",
+      "description" : null,
+      "ownerId" : "000000000000",
+      "status" : "in-use",
+      "macAddress" : null,
+      "privateIpAddress" : "172.31.32.10",
+      "privateDnsName" : "ip-172-31-32-10.ec2.internal",
+      "sourceDestCheck" : true,
+      "groups" : [ {
+        "groupId" : "sg-default-us-east-1",
+        "groupName" : "default"
+      } ],
+      "attachmentId" : "eni-attach-d7b088856f303dc32",
+      "deviceIndex" : 0,
+      "attachTime" : "2026-09-04T09:14:42.404Z"
+    } ],
+    "architecture" : "x86_64",
+    "hypervisor" : "xen",
+    "virtualizationType" : "hvm",
+    "rootDeviceName" : "/dev/xvda",
+    "rootDeviceType" : "ebs",
+    "launchTime" : "2026-09-04T09:14:42.404963047Z",
+    "amiLaunchIndex" : 0,
+    "clientToken" : "ddb22350-45b7-4d29-981f-879235bddd06",
+    "monitoring" : "disabled",
+    "sourceDestCheck" : true,
+    "ebsOptimized" : false,
+    "enaSupport" : true,
+    "iamInstanceProfileArn" : null,
+    "stateReasonCode" : null,
+    "stateReasonMessage" : null,
+    "region" : "us-east-1",
+    "tags" : [ ],
+    "rootVolumeId" : "vol-056b938e83c6e294a",
+    "disableApiStop" : false,
+    "disableApiTermination" : false,
+    "dockerContainerId" : null,
+    "containerBridgeIp" : null,
+    "userData" : null,
+    "sshHostPort" : 0,
+    "terminatedAt" : 0,
+    "publishedPorts" : { }
+  }
+}
